@@ -14,7 +14,7 @@ let fly = false;
 //Load 3D models
 const loader = new GLTFLoader();
 
-loader.load('../assets/models/japnessStore/scene.gltf', function (gltf) {
+loader.load('https://willbbhm.github.io/BloomCity/assets/models/japnessStore/scene.gltf', function (gltf) {
     const foodcenter = gltf.scene;
     foodcenter.position.set(0, -1, 0);
     scene.add(foodcenter);
@@ -22,7 +22,7 @@ loader.load('../assets/models/japnessStore/scene.gltf', function (gltf) {
     console.error(error);
 });
 
-loader.load('../assets/models/japnessStore/scene.gltf', function (gltf) {
+loader.load('https://willbbhm.github.io/BloomCity/assets/models/japnessStore/scene.gltf', function (gltf) {
     const foodleft = gltf.scene;
     foodleft.position.set(-8, -1, 0);
     scene.add(foodleft);
@@ -30,7 +30,7 @@ loader.load('../assets/models/japnessStore/scene.gltf', function (gltf) {
     console.error(error);
 });
 
-loader.load('../assets/models/japnessStore/scene.gltf', function (gltf) {
+loader.load('https://willbbhm.github.io/BloomCity/assets/models/japnessStore/scene.gltf', function (gltf) {
     const foodright = gltf.scene;
     foodright.position.set(8, -1, 0);
     scene.add(foodright);
@@ -38,7 +38,7 @@ loader.load('../assets/models/japnessStore/scene.gltf', function (gltf) {
     console.error(error);
 });
 
-loader.load('../assets/models/SkyboxNight/scene.gltf', function (gltf) {
+loader.load('https://willbbhm.github.io/BloomCity/assets/models/SkyboxNight/scene.gltf', function (gltf) {
     skybox = gltf.scene;
     skybox.position.set(0, 0, 0);
     skybox.scale.set(15, 15, 15);
@@ -47,7 +47,7 @@ loader.load('../assets/models/SkyboxNight/scene.gltf', function (gltf) {
     console.error(error);
 });
 
-loader.load('../assets/models/renardWalk/scene.gltf', function (gltf) {
+loader.load('https://willbbhm.github.io/BloomCity/assets/models/renardWalk/scene.gltf', function (gltf) {
     const renard = gltf.scene;
     renard.position.set(0, -0.8, 3);
     renard.rotation.set(0, -1.5, 0);
