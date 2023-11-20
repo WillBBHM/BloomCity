@@ -8,7 +8,7 @@ import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js';
 //Load 3D models
 const loader = new GLTFLoader();
 
-loader.load('https://github.com/WillBBHM/BloomCity/blob/main/assets/models/japnessStore/scene.gltf', function (gltf) {
+loader.load('https://willbbhm.github.io/BloomCity/assets/models/japnessStore/scene.gltf', function (gltf) {
     const foodcenter = gltf.scene;
     foodcenter.position.set(0, -1, 0);
     scene.add(foodcenter);
@@ -16,7 +16,7 @@ loader.load('https://github.com/WillBBHM/BloomCity/blob/main/assets/models/japne
     console.error(error);
 });
 
-loader.load('https://github.com/WillBBHM/BloomCity/blob/main/assets/models/japnessStore/scene.gltf', function (gltf) {
+loader.load('https://willbbhm.github.io/BloomCity/assets/models/japnessStore/scene.gltf', function (gltf) {
     const foodleft = gltf.scene;
     foodleft.position.set(-8, -1, 0);
     scene.add(foodleft);
@@ -32,7 +32,7 @@ loader.load('https://github.com/WillBBHM/BloomCity/blob/main/assets/models/japne
     console.error(error);
 });
 
-loader.load('https://github.com/WillBBHM/BloomCity/blob/main/assets/models/SkyboxNight/scene.gltf', function (gltf) {
+loader.load('https://willbbhm.github.io/BloomCity/assets/models/SkyboxNight/scene.gltf', function (gltf) {
     const foodright = gltf.scene;
     foodright.position.set(0, 0, 0);
 	foodright.scale.set(15, 15, 15);
