@@ -1,9 +1,9 @@
 import * as THREE from 'three';
-import { UnrealBloomPass } from 'three/addons/postprocessing/UnrealBloomPass.js';
-import { RenderPass } from 'three/addons/postprocessing/RenderPass.js';
-import { EffectComposer } from 'three/addons/postprocessing/EffectComposer.js';
-import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js';
-import { FirstPersonControls  } from 'three/addons/controls/FirstPersonControls.js';
+import { UnrealBloomPass } from '../libs/UnrealBloomPass.js';
+import { RenderPass } from '../libs/RenderPass.js';
+import { EffectComposer } from '../libs/EffectComposer.js';
+import { GLTFLoader } from '../libs/GLTFLoader.js';
+import { FirstPersonControls  } from '../libs/FirstPersonControls.js';
 
 let renardMixer;
 const renardSpeed = 0.01;
